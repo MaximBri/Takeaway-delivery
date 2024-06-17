@@ -1,0 +1,77 @@
+.call {
+  background-image: url(/data/section5/BG-Shape.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 0;
+}
+.call-wrapper {
+  display: flex;
+  align-items: center;
+}
+.call-left {
+  max-width: 50vw;
+}
+.call-title {
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 1.65px;
+  color: var(--bg-green);
+}
+.call-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  color: var(--grey);
+  margin: 29px 0 47px;
+}
+.call-btn {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+.call-right {
+  width: 100%;
+  max-width: 567px;
+  img{
+    width: 100%;
+  }
+}
+@media(max-width: 1000px){
+  .call-title {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .call {
+    padding: 70px 0;
+  }
+  .call-wrapper{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
+@media(max-width: 768px){
+  .call-left {
+    max-width: none;
+  }
+  .call-title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .call {
+    padding: 30px 0;
+  }
+  .call-subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 15px 0 15px;
+  }
+  .call-btn {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

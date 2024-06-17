@@ -28,3 +28,11 @@ function toggleClass(event) {
     element2.addEventListener('click', toggleClass);
   }
 }
+// mixer
+$(function () {
+  var mixer = mixitup('.menu__items-container');
+  $('.menu-navigation').on('click', function () {
+    $('.menu-navigation').removeClass('menu-activeBtn')
+    $(this).addClass('menu-activeBtn')
+  })
+})

@@ -3,7 +3,11 @@
   --black: #08090A;
   --grey: #546285;
   --white: #FFFFFF;
-  --black-grey: #28224B
+  --black-grey: #28224B;
+  --lines: #D1CDCD;
+}
+input:focus {
+  outline: none;
 }
 .container{
   margin-inline: 10vw;
